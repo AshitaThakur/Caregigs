@@ -140,7 +140,11 @@ position: relative;
     justify-content: center;
     position: absolute;
     z-index: 5;
-    margin: 29% 13.5%;
+    /* margin: 29% 1.5%; */
+
+    /* margin-left: 10px; */
+    margin: 29% 11.5%;
+
 }
 
  .form-box{
@@ -647,6 +651,7 @@ padding: 0px 10px;
     height: 50vh; 
     /* border: 1px solid rgb(0, 225, 255); */
 }
+
 .logoPara2{
     font-weight: 400;
 font-size: 16px;
@@ -656,6 +661,15 @@ margin-right: 28px;
 /* padding: 0px 70px; */
 padding-left: 70px;
 
+}
+.globeRight{
+    width: 100%;
+}
+.globeRight_image{
+    position: relative;
+    margin-right: 20px;
+    width: 100%;
+    /* background: url('./images/globeImage1.svg'); */
 }
 .footerMid{
     width: 80%;
